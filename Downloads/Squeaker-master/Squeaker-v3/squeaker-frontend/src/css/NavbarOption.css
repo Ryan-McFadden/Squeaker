@@ -1,0 +1,29 @@
+.navbarOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbarOption:active > h2 {
+    color: var(--twitter-color);
+}
+
+.navbarOption:hover {
+    background-color: rgba(135, 206, 250, 0.301);
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+
+.navbarOption > .MuiSvgIcon-root {
+    padding: 10px;
+    font-size: 40px;
+}
+
+.navbarOption > h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    color: white;
+}

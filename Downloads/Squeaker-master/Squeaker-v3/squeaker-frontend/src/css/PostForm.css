@@ -1,0 +1,52 @@
+.postForm {
+    padding-bottom: 10px;
+    border-bottom: 8px solid rgba(33, 83, 150, 0.1);
+    padding-right: 10px;
+}
+
+.postForm > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.postForm--input {
+    padding: 20px;
+    display: flex;
+}
+
+.postForm--input > textarea {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 550;
+    border: none;
+    resize: none;
+    background-color: rgba(135, 206, 250, 0);
+}
+
+.postForm--footer {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.postForm--inputImage {
+    border: none;
+    padding: 10px;
+    background-color: rgba(135, 206, 250, 0);
+    font-weight: 550;
+}
+
+.postForm--button {
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 40px !important;
+    width: 80px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+}

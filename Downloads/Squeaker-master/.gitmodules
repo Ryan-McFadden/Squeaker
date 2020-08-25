@@ -1,0 +1,3 @@
+[submodule "Twitter-Clone/Twitter-Clone/twitter-clone-api"]
+	path = Twitter-Clone/Twitter-Clone/twitter-clone-api
+	url = https://github.com/Ryan-McFadden/Squeaker

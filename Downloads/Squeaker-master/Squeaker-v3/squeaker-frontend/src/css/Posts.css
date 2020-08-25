@@ -1,0 +1,67 @@
+.posts {
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-backround-color);
+    border-left: 1px solid var(--twitter-backround-color);
+    min-width: 550px;
+    max-width: 550px;
+    min-height: fit-content;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: rgba(33, 83, 150, 0.1);
+}
+
+.posts::-webkit-scrollbar {
+    display: none;
+}
+
+.posts--header {
+    position: sticky;
+    display: flex;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--twitter-backround-color);
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.posts--header > h2 {
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 12px;
+}
+
+.posts--button {
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 40px !important;
+    width: 80px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+}
+
+.posts--search {
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 12px;
+}
+
+.posts--backButton {
+    color: var(--twitter-color) !important;
+    border: none !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    margin-right: 10px !important;
+}
+
+.posts--backButton:hover {
+    background-color: rgba(135, 206, 250, 0.301) !important;
+    transition: color 100ms ease-out !important;
+}
